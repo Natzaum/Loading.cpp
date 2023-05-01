@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    inicio:
+    while(true){
     for(int n = 0; n < 1000; n++){
         cout << "==============" << endl;
     }
@@ -43,7 +43,7 @@ int main(){
         cout << " SUCESS    SUCESS    SUCESS    SUCESS    SUCESS    SUCESS    SUCESS    SUCESS    SUCESS    SUCESS    SUCESS    SUCESS    SUCESS    SUCESS    SUCESS    SUCESS" << endl;
     }
 
-    goto inicio;
+}
 
     return 0;
 }
